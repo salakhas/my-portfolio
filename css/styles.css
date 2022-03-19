@@ -473,3 +473,120 @@ h3
 	
 }
 
+
+@media (max-width: 600px) {
+	
+	#title{
+		text-align:center
+	}
+	
+	.title-image{
+		position:static;
+		transform: rotate(0);
+	}
+	
+	.about-div{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.about-pic{
+		margin-left: 0px;
+		margin-top:30px;
+	}
+	.edu-divs{
+		margin-left: 10%;
+	}
+	.indProject{
+		width: 95%;
+		height: fit-content;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	
+	.imgDiv{
+		width: 100%;
+		height: 260px;
+		align-self: center;
+	}
+	.imgProject{
+		width: 94%;
+		height: 80%;
+		margin-top: 8%;
+		margin-left: 3%;
+		border-radius:10px;
+	}
+	.content-div{
+		padding: 5px;
+		width: 100%;
+		border-radius: 10px;
+	}
+	.details{
+		width: 90%;
+		margin: auto;
+		display: flex;
+		flex-direction: row;
+		font-size: 18px;
+		word-wrap: break-word;
+	}
+	
+}
+@media (max-width: 400px) {
+	
+	#title{
+		text-align:center
+	}
+	
+	.title-image{
+		position:static;
+		transform: rotate(0);
+	}
+	
+	.about-div{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.about-pic{
+		margin-left: 0px;
+		margin-top:30px;
+	}
+	.edu-divs{
+		margin-left: 10%;
+	}
+	.indProject{
+		width: 95%;
+		height: fit-content;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	
+	.imgDiv{
+		width: 100%;
+		height: 260px;
+		align-self: center;
+	}
+	.imgProject{
+		width: 94%;
+		height: 80%;
+		margin-top: 8%;
+		margin-left: 3%;
+		border-radius:10px;
+	}
+	.content-div{
+		padding: 5px;
+		width: 100%;
+		border-radius: 10px;
+	}
+	.details{
+		width: 90%;
+		margin: auto;
+		display: flex;
+		flex-direction: row;
+		font-size: 18px;
+		word-wrap: break-word;
+	}
+	
+}
