@@ -23,34 +23,9 @@ const projects = [
       description:
         "Nike, Inc. is an American multinational corporation that is engaged in the design, development, manufacturing, and worldwide marketing and sales of footwear, apparel, equipment, accessories, and services. Nike.com is the website used by Nike to deliver innovative products, experiences and services to inspire athletes. We have tried to clone the website using HTML5, CSS3, and Javascript DOM. This was a collaborative project at MASAI school.",
     },
+    
     {
       id: 2,
-      name: "Epic Games",
-      URLs: {
-        img:
-          "https://miro.medium.com/max/2847/1*qVMPy6kSqxLJ708FeM1RPA.png",
-        liveVersion: "#",
-        sourceCode: "https://github.com/salakhas/Epic-Games.git",
-      },
-      tags: {
-        projectType: "Collaborative",
-        projectDev: "Full-Stack",
-        projectDate: "2022",
-      },
-      miniDescription:
-        "A web application to download ,purchase and play video games",
-      builtWith: [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "MongoDB", 
-        "Express.js", 
-        "Node.js"],
-      description:
-        "Epic Games, Inc. is an American video games and software developer and publisher . Epic Games develops the Unreal Engine , a commercially available game engine which also powers their internally developed video games, such as Fortnite and the Unreal , Gears of War and Infinity Blade series.",
-    },
-    {
-      id: 3,
       name: "Sendinblue Clone",
       URLs: {
         img:
@@ -72,7 +47,7 @@ const projects = [
         "Sendinblue is a website used by businesses to build and grow relationships with their customers.",
     },
     {
-      id: 4,
+      id: 3,
       name: "Mini GitHub App",
       URLs: {
         img:
@@ -92,7 +67,7 @@ const projects = [
         "An individual project to search for GitHub users and view their repositories.",
     },
     {
-      id: 5,
+      id: 4,
       name: "Tic Tac Toe game",
       URLs: {
         img:
@@ -254,3 +229,30 @@ function displayDiv(){
 
     mainDisplayDiv.append(projectDiv);
 }
+
+/*{
+      id: 2,
+      name: "Epic Games",
+      URLs: {
+        img:
+          "https://miro.medium.com/max/2847/1*qVMPy6kSqxLJ708FeM1RPA.png",
+        liveVersion: "#",
+        sourceCode: "https://github.com/salakhas/Epic-Games.git",
+      },
+      tags: {
+        projectType: "Collaborative",
+        projectDev: "Full-Stack",
+        projectDate: "2022",
+      },
+      miniDescription:
+        "A web application to download ,purchase and play video games",
+      builtWith: [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "MongoDB", 
+        "Express.js", 
+        "Node.js"],
+      description:
+        "Epic Games, Inc. is an American video games and software developer and publisher . Epic Games develops the Unreal Engine , a commercially available game engine which also powers their internally developed video games, such as Fortnite and the Unreal , Gears of War and Infinity Blade series.",
+    }, */

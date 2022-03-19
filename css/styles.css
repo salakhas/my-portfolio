@@ -30,6 +30,10 @@ h3
 	line-height:1.5;
 	padding-bottom:2.5rem;
 }
+.animation:hover{
+	animation: bounce; 
+	animation-duration: 2s;
+}
 
 .big-heading-text{
 	font-family: 'Poppins', sans-serif;
@@ -191,8 +195,6 @@ h3
 	padding: 7% 15%;
 }
 /*Skills section */
-
-
 #skills
 {
 	text-align: center;
@@ -243,6 +245,9 @@ h3
 	display: flex;
 }
 
+.indProject:hover{
+	transform: scale(110%);
+}
 
 .imgDiv{
 	padding: 5px;
