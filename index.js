@@ -29,7 +29,7 @@ const projects = [
       URLs: {
         img:
           "https://miro.medium.com/max/2847/1*qVMPy6kSqxLJ708FeM1RPA.png",
-        liveVersion: "https://epic-games-web.vercel.app/",
+        liveVersion: "https://epic-games-full-stack.vercel.app/",
         sourceCode: "https://github.com/salakhas/Epic-Games.git",
       },
       tags: {
