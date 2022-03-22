@@ -69,9 +69,14 @@ h3
 
 .navbar
 {
-	padding-bottom:4.5rem;
-	
+	padding-bottom:1rem;
+	background-color: #FF4C68;
+	margin-bottom: 10px;
 }
+.sticky {
+	position: fixed;
+	top: 0;
+  }
 
 .navbar-brand
 {
@@ -86,7 +91,6 @@ h3
 
 .navbar-dark .navbar-nav .nav-link{
 	color: #fff;
-
 }
 
 .title-image
@@ -163,6 +167,7 @@ h3
 }
 
 .about-pic{
+	margin-top: 30px;
 	margin-left:130px
 }
 /*testimonials section */

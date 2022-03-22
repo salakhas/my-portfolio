@@ -14,7 +14,7 @@ const projects = [
         projectDate: "2021",
       },
       miniDescription:
-        "It is a web application that allows users to purchase various kinds of clothing, footwear etc",
+        "This is a web application that allows users to purchase various kinds of clothing, footwear etc. This is project created by 6 member within the span of 4 days with the help of HTML,CSS,JavaScript.",
       builtWith: [
         "HTML5",
         "CSS3",
@@ -38,7 +38,7 @@ const projects = [
         projectDate: "2022",
       },
       miniDescription:
-        "A web application to download ,purchase and play video games",
+        "A web application to download ,purchase and play video games. Front-end of this project was created with the help of HTML,CSS and JavaScript and the back-end database was created with the help of MongoDB. This is a Full Stack Project created by a team of 6 members.",
       builtWith: [
         "HTML5",
         "CSS3",
@@ -65,7 +65,7 @@ const projects = [
         projectDate: "2021",
       },
       miniDescription:
-        "Sendinblue is a website used by businesses to build and grow relationships with their customers.",
+        "Sendinblue is a website used by businesses to build and grow relationships with their customers. This is a front-end project made by a team of 3 members within the span of 5 days with the help of HTML,CSS and JavaScript DOM.",
       builtWith: ["HTML5",
         "CSS3",
         "JavaScript"],
@@ -87,7 +87,7 @@ const projects = [
         projectDate: "2022",
       },
       miniDescription:
-        "A very simple tic tac toe game made with basic HTML,CSS and JavaScript",
+        "A very simple tic tac toe game made with basic HTML,CSS and JavaScript. The player who makes a straight 3-block chain wins the game. This game is built on the front-end using simple logic and validation checks only.",
       builtWith: ["HTML5", "CSS3", "JavaScript"],
       description:
         "A very simple tic tac toe game made with basic HTML,CSS and JavaScript",
@@ -107,7 +107,7 @@ const projects = [
         projectDate: "2021",
       },
       miniDescription:
-        "An individual project to search for GitHub users and view their repositories.",
+        "An application that allows you to search for any GitHub user and get the list of their repositories. Made with the help of the GitHub REST Api. This is an individual project made in one day.",
       builtWith: ["HTML5", "CSS3", "JavaScript"],
       description:
         "An individual project to search for GitHub users and view their repositories.",
@@ -221,7 +221,7 @@ function displayDiv(){
 
         let button1 = document.createElement('button');
         button1.setAttribute('class','btn button1');
-        button1.innerHTML=`<a href="${el.URLs.liveVersion}">See Live</a>`;
+        button1.innerHTML=`<a target=”_blank” href="${el.URLs.liveVersion}">See Live</a>`;
 
         button1Div.append(svg1,button1);
 
@@ -236,7 +236,7 @@ function displayDiv(){
 
         let button2 = document.createElement('button');
         button2.setAttribute('class','btn button2');
-        button2.innerHTML=`<a href="${el.URLs.sourceCode}">See Code</a>`;
+        button2.innerHTML=`<a target=”_blank” href="${el.URLs.sourceCode}">See Code</a>`;
         button2Div.append(svg2,button2);
         buttonDiv.append(button1Div,button2Div);
 
