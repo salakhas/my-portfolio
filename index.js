@@ -150,6 +150,7 @@ function displayDiv(){
         projectTitle.style.textAlign = "center";
         projectTitle.textContent = el.name;
         projectTitle.style.fontWeight = "bold";
+        projectTitle.setAttribute('class','projectTitle');
 
         let details = document.createElement('span');
         let team = document.createElement('p');

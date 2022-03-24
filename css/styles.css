@@ -306,6 +306,7 @@ h3
 }
 .lis{
 	display: flex;
+	gap: 10px;
 	width: 100%;
 	flex-wrap: wrap;
 	height: fit-content;
@@ -441,6 +442,9 @@ h3
 		display: flex;
 		flex-direction: column;
 		text-align: center;
+	}
+	.lets_connect_ul{
+		margin-left: 38%;
 	}
 	.about-pic{
 		margin-left: 0px;
@@ -589,6 +593,12 @@ h3
 		margin: auto;
 		margin-left: 0px;
 	}
+	.indProject{
+		padding: 8px;
+	}
+	.content-div{
+		padding: 15px;
+	}
 	.imgProject{
 		width: 100%;
 		height: 100%;
@@ -597,12 +607,16 @@ h3
 		border-radius:10px;
 	}
 	.imgDiv{
+		width: 100%;
 		padding: 0px;
 		border-radius: 10px;
 	}
 	#project
 	{
 		padding: 0px;
+	}
+	.projectTitle{
+		margin-top: 15px;
 	}
 }
 @media (max-width: 400px) {
@@ -680,12 +694,22 @@ h3
 		margin-left: 0px;
 		border-radius:10px;
 	}
+	.indProject{
+		padding: 8px;
+	}
+	.content-div{
+		padding: 15px;
+	}
 	.imgDiv{
+		width: 100%;
 		padding: 0px;
 		border-radius: 10px;
 	}
 	#project
 	{
 		padding: 0px;
+	}
+	.projectTitle{
+		margin-top: 15px;
 	}
 }
