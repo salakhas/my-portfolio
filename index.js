@@ -1,6 +1,30 @@
 const projects = [
+  {
+    id: 1,
+    name: "React Date Picker Application",
+    URLs: {
+      img:
+        "https://user-images.githubusercontent.com/87031922/169220206-96d53fa8-c280-43a4-b7f2-5d5108f05cd1.png",
+      liveVersion: "https://date-picker-tan.vercel.app/",
+      sourceCode: "https://github.com/salakhas/react-date-picker.git",
+    },
+    tags: {
+      projectType: "Individual",
+      projectDev: "Front-end",
+      projectDate: "2022",
+    },
+    miniDescription:
+      "This application allows user to select a start date,select end date as well,change the theme of the date picker",
+    builtWith: [
+      "React",
+      "CSS3",
+      "HTML"
+    ],
+    description:
+      "This application allows user to select a start date,select end date as well,change the theme of the date picker. Made  mainly with React.js",
+  },
     {
-      id: 1,
+      id: 2,
       name: "Epic Games",
       URLs: {
         img:
@@ -26,7 +50,7 @@ const projects = [
         "Epic Games, Inc. is an American video games and software developer and publisher . Epic Games develops the Unreal Engine , a commercially available game engine which also powers their internally developed video games, such as Fortnite and the Unreal , Gears of War and Infinity Blade series.",
     },
     {
-      id: 2,
+      id: 3,
       name: "Acko Clone",
       URLs: {
         img:
@@ -54,7 +78,7 @@ const projects = [
         "Acko General Insurance is a private sector general insurance company in India.",
     },
     {
-      id: 3,
+      id: 4,
       name: "Nike Clone",
       URLs: {
         img:
@@ -78,7 +102,7 @@ const projects = [
         "Nike, Inc. is an American multinational corporation that is engaged in the design, development, manufacturing, and worldwide marketing and sales of footwear, apparel, equipment, accessories, and services. Nike.com is the website used by Nike to deliver innovative products, experiences and services to inspire athletes. We have tried to clone the website using HTML5, CSS3, and Javascript DOM. This was a collaborative project at MASAI school.",
     },
     {
-      id: 4,
+      id: 5,
       name: "Sendinblue Clone",
       URLs: {
         img:
@@ -100,7 +124,7 @@ const projects = [
         "Sendinblue is a website used by businesses to build and grow relationships with their customers.",
     },
     {
-      id: 5,
+      id: 6,
       name: "Tic Tac Toe game",
       URLs: {
         img:
@@ -120,7 +144,7 @@ const projects = [
         "A very simple tic tac toe game made with basic HTML,CSS and JavaScript",
     },
     {
-      id: 6,
+      id: 7,
       name: "Mini GitHub App",
       URLs: {
         img:
