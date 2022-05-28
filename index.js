@@ -18,7 +18,8 @@ const projects = [
     builtWith: [
       "React",
       "CSS3",
-      "HTML"
+      "HTML5",
+      "JavaScript"
     ],
     description:
       "This application allows user to select a start date,select end date as well,change the theme of the date picker. Made  mainly with React.js",
