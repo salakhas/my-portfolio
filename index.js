@@ -14,7 +14,7 @@ const projects = [
       projectDate: "2022",
     },
     miniDescription:
-      "This application allows user to select a start date,select end date as well,change the theme of the date picker",
+      "This application allows user to select a start date,select end date as well,change the theme of the date picker. This is a front-end application made using React.js, JavaScript, HTML and CSS",
     builtWith: [
       "React",
       "CSS3",
